@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                sh 'echo "blabla" > newfile' 
+                sh 'echo "blabla" > /home/vagrant/start/newfile' 
             }
         }
       
